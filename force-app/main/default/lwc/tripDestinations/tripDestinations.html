@@ -1,0 +1,11 @@
+<template>
+    <div class="title">Places to visit</div>
+    <lightning-input type="search" class="place-input" placeholder="Add a place" variant="label-hidden"></lightning-input>
+    <div class="destinations-container">
+        <template for:each={destinations} for:item="destination">
+            <div key={destination.key} class="destination-container">
+                <c-trip-destination destination={destination}></c-trip-destination>
+            </div>
+        </template>
+    </div>
+</template>

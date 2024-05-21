@@ -1,0 +1,15 @@
+.THIS {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.THIS .content {
+    width: 900px;
+}
+
+.THIS .header {
+    padding-top: var(--lwc-layoutVerticalPadding,0.75rem);
+    padding-bottom: var(--lwc-layoutVerticalPadding,0.75rem);
+}

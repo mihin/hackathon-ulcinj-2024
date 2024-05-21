@@ -1,0 +1,32 @@
+<template>
+    <div class="tabs-panel">
+        <div class={buddiesTabClass} onclick={selectBuddiesTab}>Buddies <span class="counter">{buddiesNumber}</span></div>
+        <div class={chatsTabClass} onclick={selectChatsTab}>Chats <span class="counter">{chatsNumber}</span></div>
+    </div>
+    <c-chat
+        if:true={selectedBuddy}
+        buddy={selectedBuddy}
+        is-proposal-sent={isProposalSent}
+        onproposalsent={handleProposalSent}
+        onback={handleBackAction}
+    ></c-chat>
+    <div if:true={showBuddies}>
+        <div if:false={selectedBuddy} class="buddies-container">
+            <template for:each={buddies} for:item="buddy">
+                <div key={buddy.key} class="buddy-wrapper">
+                    <c-buddy-card buddy={buddy} onbuddyselected={onBuddySelected}></c-buddy-card>
+                </div>
+            </template>
+        </div>
+    </div>
+    <div if:true={showChats}>
+        <p if:false={chatsPresent} class="no-chats-placeholder">No chats available</p>
+        <template if:true={chatsPresent}>
+            <template for:each={chats} for:item="chat">
+                <div key={chat.buddy.name} class="chat-wrapper">
+                    <c-chat-line chat={chat} onchatselected={onChatSelected}></c-chat-line>
+                </div>
+            </template>
+        </template>
+    </div>
+</template>

@@ -1,0 +1,22 @@
+.destinations-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.place-input {
+    margin-top: 0.5rem;
+    height: 40px;
+    font-size: 1rem;
+}
+
+.destination-container {
+    margin-top: 1rem;
+}

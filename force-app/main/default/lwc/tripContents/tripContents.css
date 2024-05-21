@@ -1,0 +1,61 @@
+.trip-card {
+    border-radius: 10px;
+}
+
+.img-container {
+    position: relative;
+    background-color: black;
+    border-radius: 10px;
+}
+
+img {
+    height: 250px;
+    width: 100%;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.country-name {
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 2rem 0.5rem 2rem;
+    gap: 2rem;
+}
+
+.info-container .section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info-container .section p {
+    font-size: 1rem;
+}
+
+.dates-section lightning-icon {
+    --sds-c-icon-color-foreground-default: #3498DB;
+}
+
+.location-section lightning-icon {
+    --sds-c-icon-color-foreground-default: #17A589;
+}
+
+.working-hours-section lightning-icon {
+    --sds-c-icon-color-foreground-default: #E74C3C;
+}
+
+.destinations-section lightning-icon {
+    --sds-c-icon-color-foreground-default: #F1C40F;
+}

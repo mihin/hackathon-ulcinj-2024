@@ -1,0 +1,58 @@
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.buddy-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 0.35rem 0.75rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 0px lightgray;
+}
+
+.buddy-container:hover {
+    cursor: pointer;
+    background-color: rgb(211, 211, 211, 0.3);
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.profile-info {
+    line-height: 16px;
+}
+
+.name, .age {
+    /*font-size: 1rem;*/
+    font-weight: bold;
+}
+
+.job {
+    font-size: 12px;
+}
+
+.widgets {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon-container.chat lightning-icon {
+    --sds-c-icon-color-foreground-default: #17A589;
+}
+
+.icon-container.pin lightning-icon {
+    --sds-c-icon-color-foreground-default: #3498DB;
+}
+
+.icon-container.pin lightning-icon svg {
+    height: 20px;
+    width: 20px;
+}

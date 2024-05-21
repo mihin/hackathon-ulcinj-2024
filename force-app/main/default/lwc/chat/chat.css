@@ -1,0 +1,156 @@
+.header-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #17A589;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.header-section .back-btn {
+    margin-right: 0.5rem;
+    --sds-c-icon-color-foreground-default: white;
+}
+
+.header-section .back-btn:hover {
+    cursor: pointer;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.profile-info {
+    line-height: 16px;
+}
+
+.name, .age {
+    /*font-size: 1rem;*/
+    font-weight: bold;
+}
+
+.job {
+    font-size: 12px;
+}
+
+.profile-section img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.chat-container {
+    min-height: 600px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-section {
+    flex: 1;
+}
+
+.common-destonation-proposal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px dashed rgb(23, 165, 137);
+    margin: auto;
+    margin-top: 30%;
+}
+
+.common-destonation-proposal:hover {
+    cursor: pointer;
+    background-color: rgb(23, 165, 137, 0.1);
+}
+
+.common-destonation-proposal .msg-text {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.msg-text .destination {
+    font-weight: 600;
+    margin-left: 0.25rem;
+}
+
+.tap-text {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    color: darkblue;
+}
+
+.footer-section {
+    display: flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem 0.25rem 0.25rem;
+    border-top: 1px solid lightgray;
+}
+
+.msg-input {
+    flex: 1;
+    height: 30px;
+    padding: 0.25rem 0.75rem;
+    border: none;
+    font-size: 14px;
+}
+
+.send-btn {
+    --sds-c-icon-color-foreground-default: rgb(23, 165, 137);
+    margin-left: 0.5rem;
+}
+
+.common-destonation-proposal img {
+    border-radius: 10px;
+}
+
+.proposal-msg-wrapper {
+    width: 60%;
+    border: 1px solid rgb(23, 165, 137);
+    padding: 0.5rem 0.75rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: 1rem;
+    background-color: #D5F5E3;
+}
+
+.chat-msg {
+    font-size: 14px;
+}
+
+.proposal-msg-wrapper img {
+    border-radius: 10px;
+    margin-top: 0.25rem;
+}
+
+.dots {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.dot {
+    font-size: 14px;
+}
+
+.dot.green {
+    color: #17A589;
+}
+
+.dot.yellow {
+    color: #F1C40F;
+}
+
+.dot.red {
+    color: #E74C3C;
+}

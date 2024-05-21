@@ -1,0 +1,16 @@
+<template>
+    <div class="buddy-container" onclick={handleBuddySelection}>
+        <div class="profile-section">
+            <img src={buddy.img}/>
+            <div class="profile-info">
+                <p class="name">{buddy.name}, <span class="age">{buddy.age}</span></p>
+                <p class="job">{buddy.jobTitle}</p>
+            </div>
+        </div>
+        <div class="widgets">
+            <div class="icon-container chat">
+                <lightning-icon icon-name="utility:chat" size="small" class="chat-icon"></lightning-icon>
+            </div>
+        </div>
+    </div>
+</template>

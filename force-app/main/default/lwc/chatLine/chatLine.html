@@ -1,0 +1,12 @@
+<template>
+    <div class="chat-line" onclick={handleChatSelection}>
+        <div class="profile-section">
+            <img src={chat.buddy.img}/>
+            <div class="profile-info">
+                <p class="name">{chat.buddy.name}, <span class="age">{chat.buddy.age}</span></p>
+                <p class="last-msg">{chat.lastMessage}</p>
+            </div>
+            <!--div class="new-msg-counter">2</div-->
+        </div>
+    </div>
+</template>

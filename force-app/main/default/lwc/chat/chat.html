@@ -1,0 +1,34 @@
+<template>
+    <div class="chat-container">
+        <div class="header-section">
+            <lightning-icon icon-name="utility:back" size="x-small" class="back-btn" onclick={handleBackAction}></lightning-icon>
+            <div class="profile-section">
+                <img src={buddy.img}/>
+                <div class="profile-info">
+                    <p class="name">{buddy.name}, <span class="age">{buddy.age}</span></p>
+                    <p class="job">{buddy.jobTitle}</p>
+                </div>
+            </div>
+        </div>
+        <div class="content-section">
+            <div if:false={isProposalSent} class="common-destonation-proposal" onclick={sendProposal}>
+                <img src={commonDestination.img}/>
+                <p class="msg-text">{buddy.firstName} also wants to explore<span class="destination">{commonDestination.title}</span>!</p>
+                <p class="tap-text">Tap to invite!</p>
+                <p class="dots">
+                    <span class="dot green">•</span>
+                    <span class="dot yellow">•</span>
+                    <span class="dot red">•</span>
+                </p>
+            </div>
+            <div if:true={isProposalSent} class="proposal-msg-wrapper">
+                <p class="chat-msg">{proposalMsg}</p>
+                <img src={commonDestination.img}/>
+            </div>
+        </div>
+        <div class="footer-section">
+            <input type="text" placeholder="Type message..." class="msg-input"></input>
+            <lightning-icon icon-name="utility:send" size="x-small" class="send-btn"></lightning-icon>
+        </div>
+    </div>
+</template>

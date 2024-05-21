@@ -1,0 +1,49 @@
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.chat-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding: 0.35rem 0.75rem;
+}
+
+.chat-line:hover {
+    cursor: pointer;
+    background-color: rgb(211, 211, 211, 0.3);
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+}
+
+.profile-info {
+    width: 100%;
+    overflow: hidden;
+}
+
+.name, .age {
+    font-weight: bold;
+}
+
+.last-msg {
+    font-size: 12px;
+    overflow: hidden;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.new-msg-counter {
+    padding: 0 0.35rem;
+    background-color: rgb(23, 165, 137);
+    border-radius: 5px;
+    color: white;
+}

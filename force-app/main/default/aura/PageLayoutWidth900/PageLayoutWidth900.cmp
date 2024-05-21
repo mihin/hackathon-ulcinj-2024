@@ -1,0 +1,14 @@
+<aura:component implements="forceCommunity:layout" description="FSGACommunityOneColumnLayout">
+    <aura:attribute name="header" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="main" type="Aura.Component[]" required="false"/>
+    <div class="wrapper">
+        <div class="content">
+            <div class="header">
+                {!v.header}
+            </div>
+            <div class="main">
+                {!v.main}
+            </div>
+        </div>
+    </div>
+</aura:component>
