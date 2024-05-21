@@ -1,0 +1,66 @@
+{
+  "appPageId" : "79a48550-dc5d-4792-9fc1-fec43dd9b153",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "aa368773-4ed6-416c-ab37-42242dc2d8f6",
+  "label" : "Trip",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:header",
+      "id" : "80e92856-1f3e-4757-8502-0c9bca3da022",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "588f9861-3c61-425d-879e-55a71a094b95",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:tripContents",
+      "id" : "15e41717-7363-4545-bac6-47cc027fdf46",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9c49b765-7d57-48d4-b46e-99e62634d6ce",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "985dc6ee-0c47-43a1-9434-e5a8c3501779",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Trip"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "983638bc-dbd4-4d67-958f-b307658252d1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6a3ecc96-ed0d-40f0-b018-c7e04483d872",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:tripBuddies",
+      "id" : "45829dde-4e1b-499e-acd3-17177c9c1176",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "73943367-eadb-4f6c-9c67-ec4dc83b7258",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-trip"
+}

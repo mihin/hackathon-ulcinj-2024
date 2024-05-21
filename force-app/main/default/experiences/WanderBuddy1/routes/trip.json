@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "aa368773-4ed6-416c-ab37-42242dc2d8f6",
+  "appPageId" : "79a48550-dc5d-4792-9fc1-fec43dd9b153",
+  "configurationTags" : [ ],
+  "id" : "7fb007f4-271f-4166-b65f-43d310b8de14",
+  "label" : "Trip",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-trip",
+  "type" : "route",
+  "urlPrefix" : "trip"
+}
