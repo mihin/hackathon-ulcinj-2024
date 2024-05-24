@@ -32,5 +32,51 @@ export default class TripDestinations extends LightningElement {
             numberOfBuddies: 5,
             img: 'https://cdn.tripzaza.com/ru/destinations/wp-content/uploads/2018/02/8-Lake_Skadar-e1519008075974.jpg',
         },
-    ]
+    ];
+
+    activities = [
+        {
+            name: 'Hiking',
+            class: 'green'
+        },
+        {
+            name: 'Food',
+            class: 'blue'
+        },
+        {
+            name: 'Porto Montenegro',
+            class: 'blue'
+        },
+        {
+            name: 'Sveti Stefan',
+            class: 'orange'
+        },
+        {
+            name: 'Zabljak',
+            class: 'green'
+        },
+        {
+            name: 'Lovchen',
+            class: 'green'
+        },
+        {
+            name: 'Photography',
+            class: 'blue'
+        },
+        {
+            name: 'Extreme',
+            class: 'red'
+        },
+        {
+            name: 'Yoga',
+            class: 'orange'
+        },
+    ];
+
+    get activitiesToShow() {
+        return this.activities.map(activity => ({
+            name: `${activity.name}`,
+            class: `activity-card ${activity.class}`
+        }));
+    }
 }

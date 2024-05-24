@@ -20,3 +20,69 @@
 .destination-container {
     margin-top: 1rem;
 }
+
+.activities-container {
+    display: flex;
+    align-items: center;
+    gap: 0 0.75rem;
+    flex-wrap: wrap;
+}
+
+.activity-card {
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 0.25rem 0.75rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px darkgray;
+}
+
+.activity-card:hover {
+    cursor: pointer;
+}
+
+/*.activity-card.orange:hover {
+    background-color: rgb(255, 165, 0, 0.5);
+}
+
+.activity-card.blue:hover {
+    background-color: rgb(52, 152, 219, 0.5);
+    
+}
+
+.activity-card.green:hover {
+    background-color: rgb(39, 174, 96, 0.5);
+    
+}
+
+.activity-card.red:hover {
+    background-color: rgb(231, 76, 60, 0.5);
+    
+}*/
+
+.activity-card.orange {
+    border: 1px solid #FFC000;
+    background-color: #FFC000;
+}
+
+.activity-card.red {
+    border: 1px solid #EC7063;
+    background-color: #EC7063;
+}
+
+.activity-card.blue {
+    border: 1px solid #2E86C1;
+    background-color: #2E86C1;
+}
+
+.activity-card.green {
+    border: 1px solid #17A589;
+    background-color: #17A589;
+}
+
+.activity-card lightning-icon {
+    margin-left: 0.5rem;
+    --sds-c-icon-color-foreground-default: white;
+}
