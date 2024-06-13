@@ -19,8 +19,20 @@ export default class TravelActivityTrends extends LightningElement {
                         datasets: [{
                             label: 'Number of People',
                             data: [40, 30, 20, 50, 25],
-                            backgroundColor: 'rgba(75, 192, 192, 1)',
-                            borderColor: 'rgba(75, 192, 192, 1)',
+                            backgroundColor: [
+                                'rgba(255, 255, 255, 1)',
+                                'rgba(244, 67, 54, 1)',
+                                'rgba(8255, 255, 255, 1)',
+                                'rgba(244, 67, 54, 1)',
+                                'rgba(8255, 255, 255, 1)',
+                            ],
+                            borderColor: [
+                                'rgba(255, 255, 255, 1)',
+                                'rgba(244, 67, 54, 1)',
+                                'rgba(8255, 255, 255, 1)',
+                                'rgba(244, 67, 54, 1)',
+                                'rgba(8255, 255, 255, 1)',
+                            ],
                             borderWidth: 1
                         }]
                     },
