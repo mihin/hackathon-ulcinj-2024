@@ -20,7 +20,7 @@ export default class MonthlyTravelTrends extends LightningElement {
                             label: 'Number of Travelers',
                             data: [30, 45, 60, 70, 90, 100, 130, 120, 110, 90, 80, 70],
                             fill: false,
-                            borderColor: 'rgba(153, 102, 255, 1)',
+                            borderColor: 'rgba(244, 208, 63, 1)',
                             tension: 0.1
                         }]
                     },
