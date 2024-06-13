@@ -20,18 +20,18 @@ export default class DestinationTrends extends LightningElement {
                             label: 'Number of Visitors',
                             data: [150, 120, 100, 90, 80],
                             backgroundColor: [
-                                'rgba(244, 67, 54, 1)',
-                                'rgba(255, 255, 255, 1)',
-                                'rgba(244, 67, 54, 1)',
-                                'rgba(8255, 255, 255, 1)',
-                                'rgba(244, 67, 54, 1)',
+                                'rgba(82, 190, 128, 1)',
+                                'rgba(22, 160, 133, 1)',
+                                'rgba(39, 174, 96, 1)',
+                                'rgba(88, 214, 141, 1)',
+                                'rgba(23, 165, 137, 1)',
                             ],
                             borderColor: [
-                                'rgba(244, 67, 54, 1)',
-                                'rgba(255, 255, 255, 1)',
-                                'rgba(244, 67, 54, 1)',
-                                'rgba(8255, 255, 255, 1)',
-                                'rgba(244, 67, 54, 1)',
+                                'rgba(82, 190, 128, 1)',
+                                'rgba(22, 160, 133, 1)',
+                                'rgba(39, 174, 96, 1)',
+                                'rgba(88, 214, 141, 1)',
+                                'rgba(23, 165, 137, 1)',
                             ],
                             borderWidth: 1
                         }]
