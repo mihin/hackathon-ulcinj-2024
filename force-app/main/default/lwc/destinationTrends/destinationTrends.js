@@ -19,7 +19,7 @@ export default class DestinationTrends extends LightningElement {
                         datasets: [{
                             label: 'Number of Visitors',
                             data: [150, 120, 100, 90, 80],
-                            backgroundColor: 'rgba(75, 192, 192, 0.6)',
+                            backgroundColor: 'rgba(75, 192, 192, 1)',
                             borderColor: 'rgba(75, 192, 192, 1)',
                             borderWidth: 1
                         }]
