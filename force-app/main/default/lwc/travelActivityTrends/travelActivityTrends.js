@@ -15,7 +15,7 @@ export default class TravelActivityTrends extends LightningElement {
                 this.chart = new Chart(ctx, {
                     type: 'bar',
                     data: {
-                        labels: ['Hiking', 'Parties', 'Surfing', 'Sightseeing', 'Food Tasting'],
+                        labels: ['Hiking', 'Parties', 'Surfing', 'New Food', 'Bus Trips'],
                         datasets: [{
                             label: 'Number of People',
                             data: [40, 30, 20, 50, 25],
