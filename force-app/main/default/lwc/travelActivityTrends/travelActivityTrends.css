@@ -16,18 +16,10 @@
 }
 
 .chart-card {
-    background-color: #2c2c3e;
+    background-color: #1e1e2f;
     color: #ffffff;
     border: none;
     border-radius: 0;
-}
-
-.chart-card .slds-card__header {
-    background-color: #3a3a50;
-}
-
-.chart-card .slds-card__header-title {
-    color: #ffffff;
 }
 
 .title {
@@ -35,4 +27,5 @@
     font-size: 14px;
     font-weight: 600;
     padding: 0.5rem 1rem;
+    background-color: #2c2c3e;
 }
